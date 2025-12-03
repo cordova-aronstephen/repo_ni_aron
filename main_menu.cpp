@@ -1,4 +1,5 @@
 #include<iostream>
+#include"conio.hpp"
 using namespace std;
 
 void print_name();
@@ -12,6 +13,7 @@ int main() {
 
     do {
         clrscr();
+        gotoxy(36, 12);
         cout << "MAIN MENU" << endl;
         cout << "(1) - print name" << endl;
         cout << "(2) - swap variable" << endl;
